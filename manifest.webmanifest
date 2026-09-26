@@ -1,0 +1,18 @@
+{
+  "name": "Daily Habit Tracker",
+  "short_name": "Habit Tracker",
+  "description": "Your habits will determine your future!",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen"],
+  "orientation": "portrait",
+  "background_color": "#fffaf5",
+  "theme_color": "#e9a7b8",
+  "lang": "en",
+  "categories": ["productivity", "lifestyle"],
+  "icons": [
+    {"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
